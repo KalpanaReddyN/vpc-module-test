@@ -26,6 +26,6 @@ variable "database_subnet_cidrs" {
     default = ["10.0.21.0/24", "10.0.22.0/24"] # if u mention 1 we get error
 }
 
-# variable "is_peering_required" {
-#     default = true
-# }
+variable "is_peering_required" {
+    default = true
+}
