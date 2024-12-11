@@ -19,7 +19,7 @@ output "database_subnet_ids" {
 }
 
 output "database_subnet_group_name" {
-    value = module.vpc.database_subnet_group_name.name
+    value = module.vpc.database_subnet_group_name
 }
 
 # output "default_vpc_info" {
